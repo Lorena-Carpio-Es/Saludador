@@ -1,7 +1,11 @@
-import sumar from "./sumador.js";
+import saludar from "./saludador.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("Saludar", () => {
+  it("debería saludar con 'Hola!'", () => {
+    expect(saludar()).toEqual("Hola!");
+  });
+
+  it("debería saludar por nombre", () => {
+    expect(saludar("Juan")).toEqual("Hola, Juan!");
   });
 });
