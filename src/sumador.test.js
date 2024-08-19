@@ -1,4 +1,4 @@
-import saludar from "./saludador.js";
+import saludar from "./sumador.js";
 
 describe("Saludar", () => {
   it("debería saludar con 'Hola!'", () => {

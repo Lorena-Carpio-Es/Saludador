@@ -1,4 +1,4 @@
-import saludar from "./saludador.js";
+import saludar from "./sumador.js";
 
 const nombreInput = document.querySelector("#nombre");
 const form = document.querySelector("#saludar-form");
